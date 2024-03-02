@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <!-- include main.js -->
+  <script src="./build/main.js"></script>
+  <!-- include style.css -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- include font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Country Roleplay</title>
+</head>
+
+<body>
+  <div id="content">
+    <div class="title">
+      <h1 id="title" class="text">Country Roleplay</h1>
+      <p id="paragraph" class="text">Read the story and answer in the box below. Use the Submit Button when your done
+        answering. Use the Clear Button to restart.</p>
+      <p id="note-paragraph" class="text">NOTE: Do not use Enter Key when answering or your answer will be invalid.</p>
+    </div>
+    <div id="playarea">
+      <textarea rows="10" cols="150" id="output-area" readonly></textarea>
+      <textarea rows="1" cols="100" id="input-area"></textarea>
+      <button id="submit-button">Submit</button>
+      <button id="clear-button">Clear</button>
+    </div>
+  </div>
+</body>
+
+</html>

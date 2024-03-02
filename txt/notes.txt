@@ -1,0 +1,24 @@
+Commands: 
+    Build (npm run build)
+    Deploy (firebase deploy --only hosting:countryroleplayapp)
+    Install Firebase Tools (npm install -g firebase-tools)
+
+Characters: 
+    You
+    Leader (Alliance)
+    James (England)
+    John (America)
+    Claude (France)
+    Heinrich (Germany)
+        Hans (Germany)
+    Felix (Austria)
+    Antonio (Italy)
+    Bogdan (Romania)
+    Dmitri (Russia)
+        Vladmyir (Russia)
+    Feng (China)
+        Chao (China)
+    Haru (Japan)
+    Jeong (Korea)
+
+Notes:

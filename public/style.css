@@ -1,0 +1,103 @@
+/* Base */
+:root {
+    --color-full-white: #ffffff;
+    --color-light-red: #ff7377;
+    --color-light-green: #afff80;
+    --color-light-blue: #a8d8ff;
+    --color-grey: #313238;
+    --color-grey-alt: #383840;
+    --color-light-white: #ebedef;
+    --color-white: #dbdde1;
+    --color-white-alt: #d1d3d7;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#paragraph {
+    padding: 5px 0 5px 0;
+}
+
+#note-paragraph {
+    padding: 5px 0 50px 0;
+}
+
+textarea {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 10px 10px 10px 50px;
+    border-radius: 10px;
+}
+
+button {
+    width: 125px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#playarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Light */
+body {
+    background-color: #ffffff;
+}
+
+.text {
+    color: #06061e;
+}
+
+textarea {
+    color: #313238;
+    background-color: #ebedef;
+}
+
+button {
+    color: #ebedef;
+    background-color: #313238;
+}
+
+/* Dark
+body {
+    background-color: #313238;
+}
+
+.text {
+    color: #f2f3f5;
+}
+
+textarea {
+    color: #d1d3d7;
+    background-color: #383840;
+}
+
+button {
+    color: #383840;
+    background-color: #dbdde1;
+} */
